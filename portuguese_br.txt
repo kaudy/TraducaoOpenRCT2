@@ -1,4 +1,4 @@
-# STR_XXXX part is read and XXXX becomes the string id number.
+﻿# STR_XXXX part is read and XXXX becomes the string id number.
 # Everything after the colon and before the new line will be saved as the string.
 # Use # at the beginning of a line to leave a comment.
 STR_0000    :
@@ -3760,7 +3760,7 @@ STR_5419    :Rotate
 STR_5420    :Rotate{MOVE_X}{87}{COMMA16}
 STR_5421    :Zoom
 STR_5422    :Zoom{MOVE_X}{87}{COMMA16}
-STR_5423    :Wait
+STR_5423    :Aguarde
 STR_5424    :Wait{MOVE_X}{87}{COMMA16}
 STR_5425    :Restart
 STR_5426    :End
@@ -3782,72 +3782,116 @@ STR_5441    :{SMALLFONT}{BLACK}Identifies rides by track type,{NEWLINE}so vehicl
 STR_5442    :Force park rating:
 STR_5443    :Speed{MOVE_X}{87}{STRINGID}
 STR_5444    :Speed:
-STR_5445    :Speed
-STR_5446    :Get
-STR_5447    :Type {STRINGID}
-STR_5448    :Ride / Vehicle {STRINGID}
-STR_5449    :Reduce game speed
-STR_5450    :Increase game speed
-STR_5451    :Open cheats window
-STR_5452    :Toggle visibility of toolbars
-STR_5453    :Select another ride
+STR_5445    :Velocidade
+STR_5446    :Conseguir
+STR_5447    :Tipo {STRINGID}
+STR_5448    :Atração / Veículo {STRINGID}
+STR_5449    :Reduzir a velocidade do jogo
+STR_5450    :Aumentar a velocidade do jogo
+STR_5451    :Abrir janela de trapaças
+STR_5452    :Alternar a visibilidade da barra de ferramentas
+STR_5453    :Selecione outra atração
 STR_5454    :Uncap FPS
-STR_5455    :Enable sandbox mode
-STR_5456    :Disable clearance checks
-STR_5457    :Disable support limits
-STR_5458    :Rotate clockwise
-STR_5459    :Rotate anti-clockwise
-STR_5460    :Rotate view anti-clockwise
-STR_5461    :Set guests' parameters
+STR_5455    :Ativar o modo sandbox
+STR_5456    :Desabilitar as verificações de depuração
+STR_5457    :Desativar limites de apoio
+STR_5458    :Rotacionar no sentido horário
+STR_5459    :Rotacionar anti-horário
+STR_5460    :Rotacionar visão sentido anti-horário
+STR_5461    :Definir parâmetros dos visitantes
 STR_5462    :{CURRENCY}
-STR_5463    :Goal: Have fun!
-STR_5464    :General
-STR_5465    :Climate
-STR_5466    :Staff
+STR_5463    :Objetivo: Divirta-se!
+STR_5464    :Geral
+STR_5465    :Clima
+STR_5466    :Funcionários
 STR_5467    :ALT + 
-STR_5468    :Recent messages
-STR_5469    :Scroll map up
-STR_5470    :Scroll map left
-STR_5471    :Scroll map down
-STR_5472    :Scroll map right
-STR_5473    :Cycle day / night
-STR_5474    :Display text on banners in upper case
-STR_5475    :{COMMA16} weeks
+STR_5468    :Mensagens recentes
+STR_5469    :Desloca mapa para cima
+STR_5470    :Desloca mapa para esquerda
+STR_5471    :Desloca mapa para baixo
+STR_5472    :Desloca mapa para direita
+STR_5473    :Ciclo dia / noite
+STR_5474    :Exibie texto nos banners em letras maiúsculas
+STR_5475    :{COMMA16} semanas
 STR_5476    :Hardware
-STR_5477    :Map rendering
-STR_5478    :Controls
-STR_5479    :Toolbar
-STR_5480    :Show toolbar buttons for:
-STR_5481    :Themes
-STR_5482    :{WINDOW_COLOUR_2}Time since last inspection: {BLACK}1 minute
-STR_5483    :{BLACK}({COMMA16} weeks remaining)
-STR_5484    :{BLACK}({COMMA16} week remaining)
+STR_5477    :Renderização do mapa
+STR_5478    :Controles
+STR_5479    :Barra de Ferramentas
+STR_5480    :Mostrar os botões da barra de ferramentas para:
+STR_5481    :Temas
+STR_5482    :{WINDOW_COLOUR_2}Tempo desde a última inspeção: {BLACK}1 minuto
+STR_5483    :{BLACK}({COMMA16} semanas restantes)
+STR_5484    :{BLACK}({COMMA16} semana restante)
 STR_5485    :{SMALLFONT}{STRING}
 STR_5486    :{BLACK}{COMMA16}
-STR_5487    :{SMALLFONT}{BLACK}Show recent messages
-STR_5488    :No entrance
-STR_5489    :{SMALLFONT}{BLACK}Show only tracked guests
-STR_5490    :Disable audio on focus loss
-STR_5491    :Inventions list
-STR_5492    :Scenario options
-STR_5493    :Send Message
+STR_5487    :{SMALLFONT}{BLACK}Exibir as mensagens recentes
+STR_5488    :Entrada proibida
+STR_5489    :{SMALLFONT}{BLACK}Mostrar apenas os visitantes monitorados
+STR_5490    :Desativar som quando perder o foco
+STR_5491    :Lista de Invenções
+STR_5492    :Opções de cenário
+STR_5493    :Enviar Mensagem
 STR_5494    :<not used anymore>
-STR_5495    :Player List
-STR_5496    :Player:
+STR_5495    :Lista de Jogadores
+STR_5496    :Jogador:
 STR_5497    :Ping:
-STR_5498    :Server List
-STR_5499    :Player Name:
-STR_5500    :Add Server
-STR_5501    :Start Server
-STR_5502    :Multiplayer
-STR_5503    :Enter hostname or IP address:
-STR_5504    :{SMALLFONT}{BLACK}Show multiplayer status
-STR_5505    :Unable to connect to server.
-STR_5506    :Guests ignore intensities
-STR_5507    :Handymen mow grass by default
-STR_5508    :Allow loading files with incorrect checksums
-STR_5509    :{SMALLFONT}{BLACK}Allows loading scenarios and saves that have an incorrect checksum, like the scenarios from the demo or damaged saves.
-STR_5510    :Default sound device
-STR_5511    :(UNKNOWN)
-STR_5512    :Save Game As
-STR_5513    :(Quick) save game
+STR_5498    :Lista de Servidores
+STR_5499    :Nome do Jogador:
+STR_5500    :Adic. Servidor
+STR_5501    :Iniciar Servidor
+STR_5502    :Multijogador
+STR_5503    :Digite o nome do servidor ou o endereço de IP:
+STR_5504    :{SMALLFONT}{BLACK}Exibir o estado do multijogador
+STR_5505    :Impossível se conectar ao servidor.
+STR_5506    :Os Visistantes ignoram as intensidades
+STR_5507    :Faz-Tudo corta a grama por padrão
+STR_5508    :Permitir o carregamento de arquivos com checksums incorreto
+STR_5509    :{SMALLFONT}{BLACK}Permitir o carregamento de cenários e jogos salvos que possuam checksum incorreto, como os cenários do demo e jogos salvos danificados.
+STR_5510    :Dispositivo de som padrão
+STR_5511    :(DESCONHECIDO)
+STR_5512    :Salvar Jogo Como
+STR_5513    :(Rapido) salvar jogo
+STR_5514    :Desativar vandalismo
+STR_5515    :{SMALLFONT}{BLACK}Parar o vandalismo dos visitantes no seu parque quando eles estão com raiva
+STR_5516    :{SMALLFONT}{BLACK}Preto
+STR_5517    :{SMALLFONT}{BLACK}Cinza
+STR_5518    :{SMALLFONT}{BLACK}Branco
+STR_5519    :{SMALLFONT}{BLACK}Roxo escuro
+STR_5520    :{SMALLFONT}{BLACK}Roxo claro
+STR_5521    :{SMALLFONT}{BLACK}Roxo brilhante
+STR_5522    :{SMALLFONT}{BLACK}Azul escuro
+STR_5523    :{SMALLFONT}{BLACK}Azul claro
+STR_5524    :{SMALLFONT}{BLACK}Azul Gelo
+STR_5525    :{SMALLFONT}{BLACK}Azul esverdeado
+STR_5526    :{SMALLFONT}{BLACK}Turquesa
+STR_5527    :{SMALLFONT}{BLACK}Verde saturado
+STR_5528    :{SMALLFONT}{BLACK}Verde escuro
+STR_5529    :{SMALLFONT}{BLACK}Moss green
+STR_5530    :{SMALLFONT}{BLACK}Bright green
+STR_5531    :{SMALLFONT}{BLACK}Olive green
+STR_5532    :{SMALLFONT}{BLACK}Verde oliva escuro
+STR_5533    :{SMALLFONT}{BLACK}Amarelo brilhante
+STR_5534    :{SMALLFONT}{BLACK}Amarelo
+STR_5535    :{SMALLFONT}{BLACK}Amarelo escuro
+STR_5536    :{SMALLFONT}{BLACK}Laranja claro
+STR_5537    :{SMALLFONT}{BLACK}Laranja escuro
+STR_5538    :{SMALLFONT}{BLACK}Marrrom claro
+STR_5539    :{SMALLFONT}{BLACK}Marrom saturado
+STR_5540    :{SMALLFONT}{BLACK}Marrom escuro
+STR_5541    :{SMALLFONT}{BLACK}Salmão
+STR_5542    :{SMALLFONT}{BLACK}Vermelho vinho
+STR_5543    :{SMALLFONT}{BLACK}Vermelho saturado
+STR_5544    :{SMALLFONT}{BLACK}Vermelho brilhante
+STR_5545    :{SMALLFONT}{BLACK}Rosa escuro
+STR_5546    :{SMALLFONT}{BLACK}Rosa brilhante
+STR_5547    :{SMALLFONT}{BLACK}Rosa claro
+
+#####################
+# Rides/attractions # 
+#####################
+
+#WW
+[CONDORRD]
+STR_NAME    :Condor
+STR_DESC    :Montando em arreios especiais sob a pista, os passageiros experimentarão a sensação de voar pelo ar em uma estrutura na forma de Condor*
+STR_CPTY    :4 passageiros por carro
