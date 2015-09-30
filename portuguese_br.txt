@@ -29,7 +29,7 @@ STR_0024    :Karts
 STR_0025    :Log Flume
 STR_0026    :River Rapids
 STR_0027    :Dodgems
-STR_0028    :Pirate Ship
+STR_0028    :Barco Pirata
 STR_0029    :Swinging Inverter Ship
 STR_0030    :Food Stall
 STR_0031    :Unknown Stall (1D)
@@ -44,7 +44,7 @@ STR_0039    :Roda Gigante
 STR_0040    :Motion Simulator
 STR_0041    :Cinema 3D
 STR_0042    :Top Spin
-STR_0043    :Space Rings
+STR_0043    :Giroscopio Humano
 STR_0044    :Reverse Freefall Coaster
 STR_0045    :Elevador
 STR_0046    :Vertical Drop Roller Coaster
@@ -1901,17 +1901,17 @@ STR_1893    :<not used anymore>
 STR_1894    :{WINDOW_COLOUR_2}{STRINGID} vendido: {BLACK}{COMMA32}
 STR_1895    :{SMALLFONT}{BLACK}Construir uma nova atração
 STR_1896    :{WINDOW_COLOUR_2}Receitas/Despesas
-STR_1897    :{WINDOW_COLOUR_2}Construção das atrações
-STR_1898    :{WINDOW_COLOUR_2}Custos de funcionamento das atrações
-STR_1899    :{WINDOW_COLOUR_2}Aquisição de terrenos
+STR_1897    :{WINDOW_COLOUR_2}Construções
+STR_1898    :{WINDOW_COLOUR_2}Func. das atrações
+STR_1899    :{WINDOW_COLOUR_2}Compra de terrenos
 STR_1900    :{WINDOW_COLOUR_2}Landscaping
-STR_1901    :{WINDOW_COLOUR_2}Bilhetes da entrada no parque
-STR_1902    :{WINDOW_COLOUR_2}Bilhetes das atrações
+STR_1901    :{WINDOW_COLOUR_2}Entradas no parque
+STR_1902    :{WINDOW_COLOUR_2}Atrações
 STR_1903    :{WINDOW_COLOUR_2}Vendas das lojas
 STR_1904    :{WINDOW_COLOUR_2}Estoque das lojas
-STR_1905    :{WINDOW_COLOUR_2}Vendas de Comidas/Bebidas
-STR_1906    :{WINDOW_COLOUR_2}Estoque de Comidas/Bebidas
-STR_1907    :{WINDOW_COLOUR_2}Salários dos funcionários
+STR_1905    :{WINDOW_COLOUR_2}Vendas de Comidas
+STR_1906    :{WINDOW_COLOUR_2}Estoq. de Comidas
+STR_1907    :{WINDOW_COLOUR_2}Funcionários
 STR_1908    :{WINDOW_COLOUR_2}Marketing
 STR_1909    :{WINDOW_COLOUR_2}Pesquisa
 STR_1910    :{WINDOW_COLOUR_2}Juros de empréstimos
@@ -1920,7 +1920,7 @@ STR_1912    :{MONTH}
 STR_1913    :{BLACK}+{CURRENCY2DP}
 STR_1914    :{BLACK}{CURRENCY2DP}
 STR_1915    :{RED}{CURRENCY2DP}
-STR_1916    :{WINDOW_COLOUR_2}Empréstimo:
+STR_1916    :{WINDOW_COLOUR_2}crédito:
 STR_1917    :{POP16}{POP16}{POP16}{CURRENCY}
 STR_1918    :Não é possivel emprestar mais dinheiro!
 STR_1919    :Não possui dinheiro suficiente!*
@@ -1935,10 +1935,10 @@ STR_1927    :{YELLOW}{STRINGID} Quebrou*
 STR_1928    :{RED}{STRINGID} Bateu!*
 STR_1929    :{RED}{STRINGID} still hasn't been fixed{NEWLINE}Check where your mechanics are and consider organizing them better
 STR_1930    :{SMALLFONT}{BLACK}Turn on/off tracking information for this guest - (If tracking is on, guest's movements will be reported in the message area)
-STR_1931    :{STRINGID} juntou-se a fila de espera para  {STRINGID}
+STR_1931    :{STRINGID} entrou na fila de espera para {STRINGID}
 STR_1932    :{STRINGID} está no {STRINGID}
-STR_1933    :{STRINGID} esta em {STRINGID}
-STR_1934    :{STRINGID} saiu {STRINGID}
+STR_1933    :{STRINGID} esta no {STRINGID}
+STR_1934    :{STRINGID} saiu do {STRINGID}
 STR_1935    :{STRINGID} saiu do parque
 STR_1936    :{STRINGID} comprou {STRINGID}
 STR_1937    :{SMALLFONT}{BLACK}Show information about the subject of this message
@@ -2055,7 +2055,7 @@ STR_2047    :uma foto na atração
 STR_2048    :um guarda-chuva
 STR_2049    :uma bebida
 STR_2050    :um hambúrguer
-STR_2051    :alguma batata frita
+STR_2051    :uma batata frita
 STR_2052    :um sorvete
 STR_2053    :algum algodão-Doce
 STR_2054    :uma lata vazia
@@ -2865,7 +2865,7 @@ STR_2854    :{RED}Guests can't get to the entrance of {STRINGID} !{NEWLINE}Const
 STR_2855    :{RED}{STRINGID} has no path leading from its exit !{NEWLINE}Construct a path from the ride exit
 STR_2856    :{WINDOW_COLOUR_2}Tutorial
 STR_2857    :{WINDOW_COLOUR_2}(Press a key or mouse button to take control)
-STR_2858    :Can't start marketing campaign...
+STR_2858    :Impossível começar uma campanha de marketing...
 STR_2859    :Another instance of OpenRCT2 is already running
 STR_2860    :Infogrames Interactive credits...
 STR_2861    :{WINDOW_COLOUR_2}Licensed to Infogrames Interactive Inc.
@@ -3460,7 +3460,7 @@ STR_3446    :Cancelar a Área de Patrulha
 STR_5120    :Finanças
 STR_5121    :Pesquisas
 STR_5122    :Select rides by track type (like in RCT1)
-STR_5123    :Renew rides
+STR_5123    :Renovar atrações
 STR_5124    :<not used anymore>
 STR_5125    :All destructable
 STR_5126    :Random title music
@@ -3469,7 +3469,7 @@ STR_5128    :Selection size
 STR_5129    :Enter selection size between {COMMA16} and {COMMA16}
 STR_5130    :Map size
 STR_5131    :Enter map size between {COMMA16} and {COMMA16}
-STR_5132    :Fix all rides
+STR_5132    :Consertar todas as atrações
 STR_5133    :{SMALLFONT}{BLACK}Adjust smaller area of land rights
 STR_5134    :{SMALLFONT}{BLACK}Adjust larger area of land rights
 STR_5135    :{SMALLFONT}{BLACK}Buy land rights and construction rights
@@ -3495,13 +3495,13 @@ STR_5154    :Hardware display
 STR_5155    :Allow testing of unfinished tracks
 STR_5156    :{SMALLFONT}{BLACK}Allows testing of most ride types even when the track is unfinished, does not apply to block sectioned modes
 STR_5157    :Unlock all prices
-STR_5158    :Quit to menu
-STR_5159    :Exit OpenRCT2
-STR_5160    :{MONTH} {STRINGID}, Year {COMMA16}
-STR_5161    :Date Format:
-STR_5162    :Day/Month/Year
-STR_5163    :Month/Day/Year
-STR_5164    :Twitch Channel name
+STR_5158    :Sair para o menu
+STR_5159    :Sair do OpenRCT2
+STR_5160    :{POP16}{MONTH} {PUSH16}{PUSH16}{STRINGID}, Ano {POP16}{COMMA16}
+STR_5161    :Formato da Data:
+STR_5162    :Dia/Mês/Ano
+STR_5163    :Mês/Dia/Ano
+STR_5164    :Nome do canal do Twitch
 STR_5165    :Name peeps after followers
 STR_5166    :{SMALLFONT}{BLACK}Will name peeps after channel's Twitch followers
 STR_5167    :Track follower peeps
@@ -3513,19 +3513,19 @@ STR_5172    :{SMALLFONT}{BLACK}Will turn on tracking information for guests name
 STR_5173    :Pull Twitch chat as news
 STR_5174    :{SMALLFONT}{BLACK}Will use Twitch chat messages preceded by !news for in game notifications
 STR_5175    :Input the name of your Twitch channel
-STR_5176    :Enable Twitch integration
-STR_5177    :Fullscreen mode:
-STR_5178    :{SMALLFONT}{BLACK}Show financial cheats
-STR_5179    :{SMALLFONT}{BLACK}Show guest cheats
-STR_5180    :{SMALLFONT}{BLACK}Show park cheats
-STR_5181    :{SMALLFONT}{BLACK}Show ride cheats
+STR_5176    :Abilita integração com Twitch
+STR_5177    :Modo tela inteira:
+STR_5178    :{SMALLFONT}{BLACK}Mostrar trapaças financeiras
+STR_5179    :{SMALLFONT}{BLACK}Mostrar trapaças de visitantes
+STR_5180    :{SMALLFONT}{BLACK}Mostrar trapaças do parque
+STR_5181    :{SMALLFONT}{BLACK}Mostrar trapaças das atrações
 STR_5182    :{INT32}
 STR_5183    :Base height
 STR_5184    :Enter base height between {COMMA16} and {COMMA16}
 STR_5185    :Water level
 STR_5186    :Enter water level between {COMMA16} and {COMMA16} 
-STR_5187    :Finances
-STR_5188    :New Campaign
+STR_5187    :Finanças
+STR_5188    :Nova Campanha
 STR_5189    :Pesquisa
 STR_5190    :Mapa
 STR_5191    :Viewport
@@ -3614,31 +3614,31 @@ STR_5273    :{SMALLFONT}{BLACK}Large Scenery
 STR_5274    :{SMALLFONT}{BLACK}Footpath
 STR_5275    :Search for Objects
 STR_5276    :Enter the name of an object to search for
-STR_5277    :Clear
-STR_5278    :Sandbox mode
-STR_5279    :Sandbox mode off
+STR_5277    :Claro
+STR_5278    :Modo sandbox ativado
+STR_5279    :Modo sandbox desativado
 STR_5280    :{SMALLFONT}{BLACK}Allow editing land ownership settings through the Map window and other options that are normally restricted to the Scenario Editor
 STR_5281    :{SMALLFONT}{BLACK}Features
 STR_5282    :RCT1 Ride Open/Close Lights
 STR_5283    :RCT1 Park Open/Close Lights
 STR_5284    :RCT1 Scenario Selection Font
-STR_5285    :EXPLODE!!!
-STR_5286    :{SMALLFONT}{BLACK}Makes some guests explode
-STR_5287    :Ride is already broken down
-STR_5288    :Ride is closed
-STR_5289    :No breakdowns available for this ride
-STR_5290    :Fix ride
-STR_5291    :Can't force breakdown
-STR_5292    :{SMALLFONT}{BLACK}Force a breakdown
-STR_5293    :{SMALLFONT}{BLACK}Close ride/attraction
-STR_5294    :{SMALLFONT}{BLACK}Test ride/attraction
-STR_5295    :{SMALLFONT}{BLACK}Open ride/attraction
-STR_5296    :{SMALLFONT}{BLACK}Close park
-STR_5297    :{SMALLFONT}{BLACK}Open park
+STR_5285    :EXPLODIR!!
+STR_5286    :{SMALLFONT}{BLACK}Explodir alguns visitantes
+STR_5287    :Atração já está quebrada
+STR_5288    :Atração está fechada
+STR_5289    :Indisponível quebra para essa atração
+STR_5290    :Consertar atração
+STR_5291    :Impossível forçar quebra
+STR_5292    :{SMALLFONT}{BLACK}Forçar quebra
+STR_5293    :{SMALLFONT}{BLACK}Fechar atração
+STR_5294    :{SMALLFONT}{BLACK}Testar atração
+STR_5295    :{SMALLFONT}{BLACK}Abrir atração
+STR_5296    :{SMALLFONT}{BLACK}Fechar parque
+STR_5297    :{SMALLFONT}{BLACK}Abrir parque
 STR_5298    :{RED}{STRINGID}
 STR_5299    :{LIGHTPINK}{STRINGID}
 STR_5300    :{SMALLFONT}{BLACK}Quick fire staff
-STR_5301    :{MEDIUMFONT}{BLACK}Clear your loan
+STR_5301    :{MEDIUMFONT}{BLACK}Limpar seu empréstimo
 STR_5302    :Limpar empréstimo
 STR_5303    :Allow building in pause mode
 STR_5304    :Sequencia de Títulos:
@@ -3702,7 +3702,7 @@ STR_5361    :{BLACK}De a todos os visitantes:
 STR_5362    :{BLACK}Intensidade preferida:
 STR_5363    :Maior que 1
 STR_5364    :Menor que 15
-STR_5365    :{BLACK}Velocidade dos funcionários:
+STR_5365    :{BLACK}Vel. dos funcionários:
 STR_5366    :Normal
 STR_5367    :Rápido
 STR_5368    :Redefinir o status de acidente
@@ -3737,51 +3737,51 @@ STR_5396    :{SMALLFONT}{BLACK}Reload the title sequence if changes have been ma
 STR_5397    :Can only be used on the title screen
 STR_5398    :Cannot edit title sequence while it's playing
 STR_5399    :Press the stop button to continue editing
-STR_5400    :Can't change this title sequence
-STR_5401    :Create a new title sequence to make changes to
-STR_5402    :Failed to load title sequence
-STR_5403    :There may be no Load or Wait command or a save may be invalid
-STR_5404    :Name already exists
-STR_5405    :Enter a name for the save
-STR_5406    :Enter a name for the title sequence
-STR_5407    :Add
-STR_5408    :Remove
-STR_5409    :Insert
-STR_5410    :Edit
-STR_5411    :Reload
-STR_5412    :Skip to
-STR_5413    :Load
-STR_5414    :Load{MOVE_X}{87}Six Flags Magic Mountain.SC6
-STR_5415    :Load{MOVE_X}{87}{STRING}
-STR_5416    :Load{MOVE_X}{87}No save selected
-STR_5417    :Location
-STR_5418    :Location{MOVE_X}{87}{COMMA16}   {COMMA16}
-STR_5419    :Rotate
-STR_5420    :Rotate{MOVE_X}{87}{COMMA16}
-STR_5421    :Zoom
-STR_5422    :Zoom{MOVE_X}{87}{COMMA16}
+STR_5400    :Impossível alterar esta sequência de título
+STR_5401    :Criar uma nova sequência de título para fazer alterações para
+STR_5402    :Falha ao carregar a sequência do título
+STR_5403    :Não pode haver nenhuma carga, comando de espera ou uma gravação pode ser inválida
+STR_5404    :Este nome já existe
+STR_5405    :Insira um nome para o salvar
+STR_5406    :Insira um nome para a sequência de título
+STR_5407    :Adicionar
+STR_5408    :Remoder
+STR_5409    :Inserir
+STR_5410    :Editar
+STR_5411    :Recarregar
+STR_5412    :Ir para
+STR_5413    :Carregar
+STR_5414    :Carregar{MOVE_X}{87}Six Flags Magic Mountain.SC6
+STR_5415    :Carregar{MOVE_X}{87}{STRING}
+STR_5416    :Carregar{MOVE_X}{87}Salvar não selecionado
+STR_5417    :localização
+STR_5418    :Localização{MOVE_X}{87}{COMMA16}   {COMMA16}
+STR_5419    :Rotacionar
+STR_5420    :Rotacionar{MOVE_X}{87}{COMMA16}
+STR_5421    :Ampliar
+STR_5422    :Ampliar{MOVE_X}{87}{COMMA16}
 STR_5423    :Aguarde
 STR_5424    :Wait{MOVE_X}{87}{COMMA16}
-STR_5425    :Restart
-STR_5426    :End
-STR_5427    :Coordinates:
-STR_5428    :Anticlockwise rotations:
-STR_5429    :Zoom level:
-STR_5430    :Seconds to wait:
-STR_5431    :Save to load:
-STR_5432    :Command:
-STR_5433    :Title Sequences
+STR_5425    :Reiniciar
+STR_5426    :Fim
+STR_5427    :Cordenadas:
+STR_5428    :Rotações anti-horário:
+STR_5429    :Nível de ampliação:
+STR_5430    :Segundos de espera:
+STR_5431    :Salvar para carregar:
+STR_5432    :Comando:
+STR_5433    :Sequências de título
 STR_5434    :Command Editor
 STR_5435    :Rename save
-STR_5436    :Edit Title Sequences...
-STR_5437    :No save selected
-STR_5438    :Can't make changes while command editor is open
-STR_5439    :A wait command with at least 4 seconds is required with a restart command
-STR_5440    :Minimise fullscreen on focus loss
-STR_5441    :{SMALLFONT}{BLACK}Identifies rides by track type,{NEWLINE}so vehicles can be changed{NEWLINE}afterwards, like in RCT1.
-STR_5442    :Force park rating:
-STR_5443    :Speed{MOVE_X}{87}{STRINGID}
-STR_5444    :Speed:
+STR_5436    :Editar a sequência de título...
+STR_5437    :Salvar não selecionado
+STR_5438    :Impossível fazer mudanças enquanto editor de comando está aberto
+STR_5439    :Um comando de espera com pelo menos 4 segundos é necessário com um comando de reinicialização
+STR_5440    :Minimizar tela inteira quando perder o faco
+STR_5441    :{SMALLFONT}{BLACK}Identificar as atrações por tipo de pista,{NEWLINE}assim os veículos podem ser alterados {NEWLINE}depois, como no RCT1.
+STR_5442    :Forças a classificação do parque:
+STR_5443    :Velocidade{MOVE_X}{87}{STRINGID}
+STR_5444    :Velocidade:
 STR_5445    :Velocidade
 STR_5446    :Conseguir
 STR_5447    :Tipo {STRINGID}
@@ -3885,6 +3885,11 @@ STR_5544    :{SMALLFONT}{BLACK}Vermelho brilhante
 STR_5545    :{SMALLFONT}{BLACK}Rosa escuro
 STR_5546    :{SMALLFONT}{BLACK}Rosa brilhante
 STR_5547    :{SMALLFONT}{BLACK}Rosa claro
+STR_5548    :Exibir todos os modos operacionais
+STR_5549    :Ano/Mês/Dia
+STR_5550    :{POP16}{POP16}Ano {COMMA16}, {PUSH16}{PUSH16}{MONTH} {PUSH16}{PUSH16}{STRINGID}
+STR_5551    :Ano/Mês/Dia
+STR_5552    :{POP16}{POP16}Ano {COMMA16}, {PUSH16}{PUSH16}{PUSH16}{STRINGID} {MONTH}
 
 #####################
 # Rides/attractions # 
