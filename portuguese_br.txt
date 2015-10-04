@@ -2489,14 +2489,14 @@ STR_2481    :{SMALLFONT}{BLACK}Show graph of lateral acceleration against time
 STR_2482    :{SMALLFONT}{BLACK}Profit: {CURRENCY} per week,  Park Value: {CURRENCY}
 STR_2483    :{WINDOW_COLOUR_2}Lucro semanal: {BLACK}+{CURRENCY2DP}
 STR_2484    :{WINDOW_COLOUR_2}Lucro semanal: {RED}{CURRENCY2DP}
-STR_2485    :Controls
-STR_2486    :General
-STR_2487    :Show 'real' names of guests
-STR_2488    :{SMALLFONT}{BLACK}Toggle between showing 'real' names of guests and guest numbers
-STR_2489    :Shortcut keys...
-STR_2490    :Keyboard shortcuts
-STR_2491    :Reset keys
-STR_2492    :{SMALLFONT}{BLACK}Set all keyboard shortcuts back to default settings
+STR_2485    :Controles
+STR_2486    :Geral
+STR_2487    :Exibir nomes 'reais' para os visitantes
+STR_2488    :{SMALLFONT}{BLACK}Alternar entre exibir nomes 'reais' para os visitantes e numeros de visitantes
+STR_2489    :Teclas de atalho...
+STR_2490    :Atalhos do teclado
+STR_2491    :Redefinir teclas
+STR_2492    :{SMALLFONT}{BLACK}Redefinir todos os atalhos de teclado para as configurações padrão
 STR_2493    :Close top-most window
 STR_2494    :Close all floating windows
 STR_2495    :Cancel construction mode
@@ -2804,8 +2804,8 @@ STR_2793    :{SMALLFONT}(Completado por {STRINGID})
 STR_2794    :{WINDOW_COLOUR_2}Completed by: {BLACK}{STRINGID}{NEWLINE}{WINDOW_COLOUR_2} with a company value of: {BLACK}{CURRENCY}
 STR_2795    :Sort
 STR_2796    :{SMALLFONT}{BLACK}Sort the ride list into order using the information type displayed
-STR_2797    :Scroll view when pointer at screen edge
-STR_2798    :{SMALLFONT}{BLACK}Select whether to scroll the view when the mouse pointer is at the screen edge
+STR_2797    :Move a tela quando o ponteiro estiver na borda da tela
+STR_2798    :{SMALLFONT}{BLACK}Selecione se deseja mover a tela quando o ponteiro do mouse estiver na borda da tela
 STR_2799    :{SMALLFONT}{BLACK}View or change control key assignments
 STR_2800    :{WINDOW_COLOUR_2}Total admissions: {BLACK}{COMMA32}
 STR_2801    :{WINDOW_COLOUR_2}Income from admissions: {BLACK}{CURRENCY2DP}
@@ -3064,7 +3064,7 @@ STR_3053    :Golf hole E
 STR_3054    :Carregando...
 STR_3055    :Branco
 STR_3056    :Translúcido
-STR_3057    :{WINDOW_COLOUR_2}Construction Marker:
+STR_3057    :{WINDOW_COLOUR_2}Marcador de Construção:
 STR_3058    :Brick walls
 STR_3059    :Hedges
 STR_3060    :Ice blocks
@@ -3487,13 +3487,13 @@ STR_5146    :Hyper Speed
 STR_5147    :Trapaças
 STR_5148    :{SMALLFONT}{BLACK}Change the game speed
 STR_5149    :{SMALLFONT}{BLACK}Exibir opções de trapaça
-STR_5150    :Enable debugging tools
+STR_5150    :Habilitar ferramentas de depuração
 STR_5151    :,
 STR_5152    :.
-STR_5153    :Edit Themes...
-STR_5154    :Hardware display
-STR_5155    :Allow testing of unfinished tracks
-STR_5156    :{SMALLFONT}{BLACK}Allows testing of most ride types even when the track is unfinished, does not apply to block sectioned modes
+STR_5153    :Editar Temas...
+STR_5154    :Exibição por Hardware
+STR_5155    :Permitir o teste de atrações incompletas
+STR_5156    :{SMALLFONT}{BLACK}Permite testar a maioria dos tipos de atrações, mesmo quando a atração está inacabada, não se aplica bloquear os modos seccionados
 STR_5157    :Unlock all prices
 STR_5158    :Sair para o menu
 STR_5159    :Sair do OpenRCT2
@@ -3513,7 +3513,7 @@ STR_5172    :{SMALLFONT}{BLACK}Will turn on tracking information for guests name
 STR_5173    :Pull Twitch chat as news
 STR_5174    :{SMALLFONT}{BLACK}Will use Twitch chat messages preceded by !news for in game notifications
 STR_5175    :Input the name of your Twitch channel
-STR_5176    :Abilita integração com Twitch
+STR_5176    :Habilita integração com Twitch
 STR_5177    :Modo tela inteira:
 STR_5178    :{SMALLFONT}{BLACK}Mostrar trapaças financeiras
 STR_5179    :{SMALLFONT}{BLACK}Mostrar trapaças de visitantes
@@ -3791,7 +3791,7 @@ STR_5450    :Aumentar a velocidade do jogo
 STR_5451    :Abrir janela de trapaças
 STR_5452    :Alternar a visibilidade da barra de ferramentas
 STR_5453    :Selecione outra atração
-STR_5454    :Uncap FPS
+STR_5454    :Remover limite de FPS
 STR_5455    :Ativar o modo sandbox
 STR_5456    :Desabilitar as verificações de depuração
 STR_5457    :Desativar limites de apoio
@@ -3845,7 +3845,7 @@ STR_5504    :{SMALLFONT}{BLACK}Exibir o estado do multijogador
 STR_5505    :Impossível se conectar ao servidor.
 STR_5506    :Os Visistantes ignoram as intensidades
 STR_5507    :Faz-Tudo corta a grama por padrão
-STR_5508    :Permitir o carregamento de arquivos com checksums incorreto
+STR_5508    :Carregamento de arquivos com checksums incorreto
 STR_5509    :{SMALLFONT}{BLACK}Permitir o carregamento de cenários e jogos salvos que possuam checksum incorreto, como os cenários do demo e jogos salvos danificados.
 STR_5510    :Dispositivo de som padrão
 STR_5511    :(DESCONHECIDO)
